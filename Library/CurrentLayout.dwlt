@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 27
+  controlID: 52
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 28
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 121
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fc010000
+    m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 98fbffff00000000
     m_RenameOverlay:
@@ -645,18 +645,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/FPS Shooter Kit/Scripts/Player
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/FPS Shooter Kit/Scripts/Player
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Sup\Downloads\Sci-Fi_Techlabs_osx
+  m_LastProjectPath: C:\Users\Sup\Documents\GitHub\TechLabVR
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 270}
-    m_SelectedIDs: 122d0000
-    m_LastClickedID: 11538
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 9c2c0000
+    m_LastClickedID: 11420
     m_ExpandedIDs: 000000009c2c00009a3100003c3200004233000076330000c4330000ba3b0000263c000042410000cc410000a2430000f8440000584500001a470000704700007e4700003a490000624a0000a04a0000784b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -737,7 +737,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 180}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 196
 --- !u!114 &20
@@ -794,7 +794,7 @@ MonoBehaviour:
     width: 471
     height: 553
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 44.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
