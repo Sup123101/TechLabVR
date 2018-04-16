@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/TechLabs/TechLevelKit/Scenes/ModularLevel-01.unity
+  isLoaded: 1
+  isActive: 1
