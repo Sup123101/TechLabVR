@@ -183,7 +183,7 @@ namespace VRTK
         protected List<Vector2> standingPositionHistory = new List<Vector2>();
         protected float playAreaHeightAdjustment = 0.009f;
         protected float bodyMass = 100f;
-        protected float bodyRadius = 0.15f;
+        protected float bodyRadius = 0.55f;
         protected float leanForwardLengthAddition = 0.05f;
         protected float playAreaPositionThreshold = 0.002f;
         protected float gravityPush = -0.001f;
@@ -996,6 +996,7 @@ namespace VRTK
         protected virtual void GenerateRigidbody()
         {
             bodyRigidbody = playArea.GetComponent<Rigidbody>();
+            
             if (bodyRigidbody == null)
             {
                 generateRigidbody = true;
@@ -1019,6 +1020,7 @@ namespace VRTK
 
         protected virtual void GenerateBodyCollider()
         {
+            
             if (bodyColliderContainer == null)
             {
                 if (customBodyColliderContainer != null)
@@ -1030,6 +1032,8 @@ namespace VRTK
                 {
                     bodyColliderContainer = CreateColliderContainer(BODY_COLLIDER_CONTAINER_NAME, playArea);
                     bodyColliderContainer.gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
+                    bodyColliderContainer.tag = "Player";
+                    bodyColliderContainer.AddComponent<Health>();
                 }
 
                 bodyCollider = GenerateCapsuleCollider(bodyColliderContainer, bodyRadius);

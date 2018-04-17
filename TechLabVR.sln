@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLabVR", "TechLabVR.csproj", "{0CE78B01-5C76-6595-681C-0C37015BFA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLabVR.Editor", "TechLabVR.Editor.csproj", "{0AEEA0A1-6122-CB7F-F1C5-41F44A1F0C82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE78B01-5C76-6595-681C-0C37015BFA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE78B01-5C76-6595-681C-0C37015BFA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE78B01-5C76-6595-681C-0C37015BFA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE78B01-5C76-6595-681C-0C37015BFA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEEA0A1-6122-CB7F-F1C5-41F44A1F0C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEEA0A1-6122-CB7F-F1C5-41F44A1F0C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEEA0A1-6122-CB7F-F1C5-41F44A1F0C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEEA0A1-6122-CB7F-F1C5-41F44A1F0C82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

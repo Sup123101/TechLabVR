@@ -29,7 +29,7 @@ public class EnemyAI : MonoBehaviour
 	void Start ()
 	{
 		
-		if (navMeshEnable) {
+        if (navMeshEnable) {
 		
 			navAgent.enabled = true;
 			curSpeed = navAgent.velocity.magnitude;
@@ -49,6 +49,8 @@ public class EnemyAI : MonoBehaviour
 			if (navMeshEnable && other.gameObject.tag.Equals ("Player")) {
 				navAgent.isStopped = false;
 				PlayerVisible = true;
+                positionPlayer = GameObject.Find("[VRTK][AUTOGEN][BodyColliderContainer]");
+                //positionPlayer = GameObject.Find("Camera (eye)");
                 print("Player Detected");
 			}
 		}

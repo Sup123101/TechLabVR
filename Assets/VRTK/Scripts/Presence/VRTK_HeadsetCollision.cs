@@ -150,7 +150,10 @@ namespace VRTK
                 headsetColliderContainer.transform.position = Vector3.zero;
                 headsetColliderContainer.transform.localRotation = headset.localRotation;
                 headsetColliderContainer.transform.localScale = Vector3.one;
-                headsetColliderContainer.layer = LayerMask.NameToLayer("Ignore Raycast");
+                //headsetColliderContainer.layer = LayerMask.NameToLayer("Ignore Raycast");
+                //headsetColliderContainer.tag = "Player";
+                
+                
             }
         }
 
@@ -166,6 +169,7 @@ namespace VRTK
             }
             headsetRigidbody.isKinematic = true;
             headsetRigidbody.useGravity = false;
+            
 
             Collider headsetCollider = headset.GetComponentInChildren<Collider>();
             if (headsetCollider == null)
