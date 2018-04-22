@@ -3604,6 +3604,14 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 877573d083299483b8627cfa63613824, type: 2}
   m_IsPrefabParent: 0
@@ -6268,7 +6276,7 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -70
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -6278,7 +6286,7 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 120
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224000012326194302, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -12353,6 +12361,14 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 877573d083299483b8627cfa63613824, type: 2}
   m_IsPrefabParent: 0
@@ -12633,6 +12649,8 @@ GameObject:
   - component: {fileID: 1206802889}
   - component: {fileID: 1206802891}
   - component: {fileID: 1206802892}
+  - component: {fileID: 1206802894}
+  - component: {fileID: 1206802893}
   m_Layer: 0
   m_Name: PlayAreaScripts
   m_TagString: Untagged
@@ -12699,7 +12717,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   fallRestriction: 0
-  gravityFallYThreshold: 1
+  gravityFallYThreshold: 2
   blinkYThreshold: 0.15
   floorHeightTolerance: 0.00001
   fallCheckPrecision: 8
@@ -12722,6 +12740,43 @@ MonoBehaviour:
   targetListPolicy: {fileID: 0}
   headsetColliding: 0
   collidingWith: {fileID: 0}
+--- !u!114 &1206802893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206802888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: 0
+  checkType: 1
+  identifiers:
+  - 
+--- !u!114 &1206802894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206802888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377ced3493c4e1842a5b1c23f56519db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkToColor: {r: 0, g: 0, b: 0, a: 1}
+  blinkTransitionSpeed: 0.6
+  distanceBlinkDelay: 0
+  headsetPositionCompensation: 1
+  targetListPolicy: {fileID: 0}
+  navMeshLimitDistance: 0
+  snapToNearestFloor: 1
+  customRaycast: {fileID: 0}
+  layersToIgnore:
+    serializedVersion: 2
+    m_Bits: 4
 --- !u!1 &1209917642 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1060200621856244, guid: 81e703a4015a00a448100a893c37aa64,
@@ -14171,6 +14226,14 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 877573d083299483b8627cfa63613824, type: 2}
   m_IsPrefabParent: 0
@@ -14364,6 +14427,14 @@ Prefab:
     - target: {fileID: 400000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: ShapeModule.radiusThickness
@@ -18634,6 +18705,14 @@ Prefab:
     - target: {fileID: 400000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: m_RootOrder
       value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: ShapeModule.radiusThickness
