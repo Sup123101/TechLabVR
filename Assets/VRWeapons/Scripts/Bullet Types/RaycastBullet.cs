@@ -19,13 +19,16 @@ namespace VRWeapons.BulletTypes
             if (Physics.Raycast(muzzleDir.position, shotLocation, out hit, range, shotMask))
             {
 
-                
-                    
-                if(hit.collider.gameObject.tag == "HitedEnemy")
+
+
+                if (hit.collider.gameObject.tag == "HitedEnemy")
                 {
                     print("hiting an enemy");
                     EnemyDamage enemDamage = hit.collider.gameObject.GetComponent<EnemyDamage>();
+                    if (enemDamage != null)
+                    { 
                     enemDamage.SetDamage(1);
+                    }
                 }
                 ExecuteEvents.Execute<IAttackReceiver>(hit.collider.gameObject, null, ((handler, eventData) => handler.ReceiveAttack(thisWeapon.NewAttack(damage, transform.position, hit))));
 

@@ -11,24 +11,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8517c35d4e189dd43a5a16b8039d6f48, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
+  AcousticTextureWwu:
+  - Guid: '{07C8E27A-7508-419E-8C34-C0EFFCAE45D4}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1639788171
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
   autoPopulateEnabled: 1
-  AuxBusWwu: []
-  BankWwu: []
+  AuxBusWwu:
+  - Guid: '{4AAFD399-6878-488D-9662-CCA6D16F6617}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1640058889
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{53D62207-31AA-4E2C-873D-FB300E05058F}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1639858359
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List: []
   basePath: Audio\GeneratedSoundBanks
   callbackManagerBufferSize: 4
   CurrentPluginConfig: 
   defaultPoolSize: 4096
-  EventWwu: []
-  ExpandedItems: []
+  EventWwu:
+  - Guid: '{83A88437-73DD-4620-92E5-CB383B114A56}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1640109021
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List: []
+  ExpandedItems:
+  - /TechLabVR_WwiseProject
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
   m_lastPopulateTimePsrt1: 0
   memoryCutoffThreshold: 0.95
   preparePoolSize: 0
-  RtpcWwu: []
-  StateWwu: []
+  RtpcWwu:
+  - Guid: '{87EF9656-E20F-47A6-82F8-2676FFE3C972}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1640078946
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{4D9E19FF-CBE6-4768-B15E-810E8EB6254D}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1639838306
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
   streamingPoolSize: 1024
-  SwitchWwu: []
-  TriggerWwu: []
+  SwitchWwu:
+  - Guid: '{A7A88C5A-7E4D-4275-8929-C004C2CF7E66}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1639828271
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{43B4D872-F383-4122-A91F-F0AB692F789E}'
+    m_lastTimePart2: -1999263596
+    m_lastTimePsrt1: -1639808221
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
