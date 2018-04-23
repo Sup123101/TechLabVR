@@ -89,6 +89,7 @@ public class GateControl : MonoBehaviour
 				rightDoor.position = Vector3.Lerp (rightDoor.position, openRight, p);
 			yield return null;
 		}
+        //disable mesh when door is open
         mesher.enabled = false;
         open = true;
 		inTransition = false;
@@ -109,6 +110,7 @@ public class GateControl : MonoBehaviour
 				rightDoor.position = Vector3.Lerp (rightDoor.position, closedRight, p);
 			yield return null;
 		}
+        //enables mesh when door is closed
         mesher.enabled = true;
 		open = false;
 		inTransition = false;
