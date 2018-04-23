@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6400000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: door-02-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 8200000}
   - component: {fileID: 6400002}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: gate-01.door-02-L.door-02-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
   - component: {fileID: 6400004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: door-02-R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,8 +75,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: -0.7071068, y: -0.000000061817246, z: -0.000000061817246, w: 0.7071068}
-  m_LocalPosition: {x: 0.0000017777791, y: -0.0000012120855, z: -10.16771}
+  m_LocalRotation: {x: -0.5000001, y: 0.5, z: 0.49999982, w: 0.5000001}
+  m_LocalPosition: {x: 4.11421, y: 0.00047565048, z: -21.771334}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -230,7 +230,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: a65735f1871a2485780f55124dfc929d, type: 3}
@@ -258,7 +258,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 343fb99ce9dd24a99bf60f59da28126d, type: 3}
@@ -353,6 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81270f90cf2074d3eb44718826b969e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addTrigger: 1
   leftDoor: {fileID: 400000}
   rightDoor: {fileID: 400004}
   travelDistance: 2.7

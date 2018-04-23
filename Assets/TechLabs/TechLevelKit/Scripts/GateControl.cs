@@ -15,6 +15,7 @@ public class GateControl : MonoBehaviour
 	public bool inTransition = false;
 	public AudioClip soundfxOpen;
 	public AudioClip soundfxClose;
+    public MeshCollider mesher;
 	
 	void Reset ()
 	{
@@ -88,7 +89,8 @@ public class GateControl : MonoBehaviour
 				rightDoor.position = Vector3.Lerp (rightDoor.position, openRight, p);
 			yield return null;
 		}
-		open = true;
+        mesher.enabled = false;
+        open = true;
 		inTransition = false;
 	}
 	
@@ -107,6 +109,7 @@ public class GateControl : MonoBehaviour
 				rightDoor.position = Vector3.Lerp (rightDoor.position, closedRight, p);
 			yield return null;
 		}
+        mesher.enabled = true;
 		open = false;
 		inTransition = false;
 				
