@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 9
+  controlID: 77
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,8 +114,8 @@ MonoBehaviour:
     y: 303
     width: 986
     height: 271
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 91
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 343}
     m_SelectedIDs: f2390000
     m_LastClickedID: 14834
-    m_ExpandedIDs: 00000000ee2f00000c300000043500007a350000e235000054370000a6370000ba3700005640000024460000ba470000cc4800005c4a0000ca4a0000804c0000de4c0000764d0000124f0000c44f00006051000064510000c4510000d052000040530000305400006a54000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000f42f0000123000000a35000080350000e83500005a370000ac370000c03700005c4000002a460000c0470000d2480000624a0000d04a0000864c0000e44c00007c4d0000184f0000ca4f0000665100006a510000ca510000d6520000465300003654000070540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee2f00000c300000043500007a350000e235000054370000a6370000ba3700005640000024460000ba470000cc4800005c4a0000ca4a0000804c0000de4c0000764d0000124f0000c44f00006051000064510000c4510000d052000040530000305400006a540000
+    m_ExpandedIDs: 00000000f42f0000123000000a35000080350000e83500005a370000ac370000c03700005c4000002a460000c0470000d2480000624a0000d04a0000864c0000e44c00007c4d0000184f0000ca4f0000665100006a510000ca510000d6520000465300003654000070540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     width: 275
     height: 553
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 170.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -511,24 +511,24 @@ MonoBehaviour:
     height: 282
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 807.8873}
-    m_SelectedIDs: 28e7ffff
-    m_LastClickedID: -6360
-    m_ExpandedIDs: 28e7ffffe6ecffff48eeffffb4eefffff8eeffff6aefffff10f0ffff30f0ffff0cf4ffff78fbffff98fbffff0000000046590000a8590000c85a00004a5b0000a85b0000085c0000a05c0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 92fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Parazite_slider
-      m_OriginalName: Parazite_slider
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -5592
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.21267563, y: 0.06589079, z: -0.014386601, w: 0.97479284}
     speed: 2
-    m_Value: {x: 0.21267559, y: 0.065890774, z: -0.014386597, w: 0.9747926}
+    m_Value: {x: -0.21267565, y: -0.06589079, z: 0.014386602, w: -0.97479284}
   m_Size:
     m_Target: 4.198744
     speed: 2
